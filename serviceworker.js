@@ -13,7 +13,25 @@ var urlsToCache = [
     '/js/jquery.min.js',
     '/js/main.js',
     '/images/logo.png',
-    '/manifest.json'
+    '/manifest.json',
+    '/vendor/animate/animate.css',
+    '/vendor/bootstrap/css/bootstrap-grid.css',
+    '/vendor/bootstrap/css/bootstrap-grid.min.css',
+    '/vendor/bootstrap/css/bootstrap-reboot.css',
+    '/vendor/bootstrap/css/bootstrap-reboot.min.css',
+    '/vendor/bootstrap/css/bootstrap.css',
+    '/vendor/bootstrap/css/bootstrap.min.css',
+    '/vendor/bootstrap/js/bootstrap.js',
+    '/vendor/bootstrap/js/bootstrap.min.js',
+    '/vendor/bootstrap/js/popper.js',
+    '/vendor/bootstrap/js/tooltip.js',
+    '/vendor/css-hamburgers/hamburgers.css',
+    '/vendor/css-hamburgers/hamburgers.min.css',
+    '/vendor/jquery/jquery-3.2.1.min.js',
+    '/vendor/select2/select2.css',
+    '/vendor/select2/select2.js',
+    '/vendor/select2/select2.min.css',
+    '/vendor/select2/select2.min.js'
  ];
  
  self.addEventListener('install', function (event) {
